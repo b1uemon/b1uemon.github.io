@@ -1,0 +1,476 @@
+/* GeonBBang Information Section */
+.section-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #80b5ff;
+}
+
+.profile {
+    margin: auto;
+    width: 256px;
+    height: 256px;
+    border-radius: 100%;
+    transform: scale(1.0);
+    transition: transform 0.5s;
+}
+
+.pro1 {
+    background: url(/assets/images/profiles/GeonBBang.png);
+}
+
+.profile:hover {
+    transform: scale(1.05);
+}
+
+.profile-title {
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.profile-info {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    transition: all 0.5s;
+    font-weight: bolder;
+}
+
+.fa-youtube {
+    color: red; 
+    font-size: 24px;
+}
+
+.profile-based {
+    color: rgb(97, 97, 97);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+}
+/* // GeonBBang Information Section */
+
+/* About Section */
+.section-about {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, #111, #000);
+}
+
+.about-title-wrap {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 20.5vh;
+    margin: 3.5% auto 0;
+}
+
+.about-title {
+    position: relative;
+    font-family: 'S-CoreDream-5Medium';
+    font-weight: bold;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.about-title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 15%;
+    height: 2px;
+    margin-left: 1.5%;
+    background-color: #fff;
+}
+
+.about-description {
+    font-size: 1.5rem;
+}
+
+.about-contents-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 70.5vh;
+    margin: 0 auto;
+}
+
+.about-upload-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+}
+
+.about-upload-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 350px;
+    text-align: center;
+    border-radius: 15px;
+    background: #333;
+}
+
+.about-upload-title {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 3.5%;
+}
+
+.about-upload-text-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 12.5%;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    background: #555;
+}
+
+.about-contact-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+}
+
+.about-contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 350px;
+    text-align: center;
+    border-radius: 15px;
+    background: #333;
+}
+
+.about-contact-title {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 3.5%;
+}
+
+.about-contact-way {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 12.5%;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background: #555;
+    transition: all 0.5s;
+}
+
+a.about-contact-way:hover {
+    background: rgb(77, 77, 77);
+}
+
+.about-contact-way:last-child {
+    margin-top: 3%;
+}
+
+.about-contact-text {
+    font-size: 1.25rem;
+}
+/* // About Section */
+
+/* Team Section */
+.section-team {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, #131313, #111);
+}
+
+.team-title-wrap {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 20.5vh;
+    margin: 2.5% auto 0;
+}
+
+.team-title {
+    position: relative;
+    font-family: 'S-CoreDream-5Medium';
+    font-weight: bold;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.team-title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 15%;
+    height: 2px;
+    margin-left: 1.5%;
+    background-color: #fff;
+}
+
+.team-title > span {
+    color: #80b5ff;
+}
+
+.team-description {
+    font-size: 1.5rem;
+}
+
+.team-contents-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 70.5vh;
+    margin: 0 auto;
+}
+
+.team-profiles-teammate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+}
+
+.team-profile-teammate profile-wrap:first-child {
+    margin-bottom: 5%;
+}
+
+.team-profiles-belong {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    height: 80%;
+}
+
+.belong-profile-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.belong-profile-wrap .profile {
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.profile-name {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.profile-name > span {
+    font-weight: bold;
+    letter-spacing: normal;
+}
+
+.profile-name.teammate {
+    margin-top: 10.5%;
+}
+
+.profile-name:not(span) {
+    letter-spacing: 1.5px;
+}
+
+.pro2 {
+    background: #fff;
+    /* background: url(/assets/images/profiles/Nayen.png); */
+}
+
+.pro3 {
+    background: url(/assets/images/profiles/Gamgyul.png);
+}
+
+.pro4 {
+    background: url(/assets/images/profiles/Ascreation.png);
+}
+
+.pro5 {
+    background: #fff;
+    /* background: url(/assets/images/profiles/Teamplayworld.png); */
+}
+/* // Team Section */
+
+/* Thubnail Section */
+.section-thumbnails {
+    width: 100%;
+    height: 105vh;
+    background: linear-gradient(to top, #000, #131313);
+}
+
+.thumbnail-title-wrap {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 20.5vh;
+    margin: 3.5% auto 0;
+}
+
+.thumbnail-title {
+    position: relative;
+    font-family: 'S-CoreDream-5Medium';
+    font-weight: bold;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.thumbnail-title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 15%;
+    height: 2px;
+    margin-left: 1.5%;
+    background-color: #fff;
+}
+
+.thumbnail-description {
+    font-size: 1.5rem;
+}
+
+.thumbnail-contents-wrap {
+    display: flex;
+    width: 90%;
+    height: 70.5vh;
+    margin: 0 auto;
+}
+
+.thumbnails-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+.thumbnails {
+    position: relative;
+    width: 75%;
+    height: 65%;
+}
+
+.thumbnail1 {
+    position: absolute;
+    bottom: 0;
+    width: 85%;
+    height: 65%;
+    border-radius: 5px;
+    background: url('/assets/images/thumbnails/thumbnail1.png');
+    background-size: cover;
+    transition: all 0.5s;
+}
+
+.thumbnail2 {
+    position: absolute;
+    right: 7.5%;
+    bottom: 15%;
+    width: 85%;
+    height: 70%;
+    border-radius: 5px;
+    background: url('/assets/images/thumbnails/thumbnail2.png');
+    background-size: cover;
+    transition: all 0.5s;
+}
+
+.thumbnail3 {
+    position: absolute;
+    right: 0;
+    bottom: 30%;
+    width: 80%;
+    height: 70%;
+    border-radius: 5px;
+    background: url('/assets/images/thumbnails/thumbnail3.png');
+    background-size: cover;
+    transition: all 0.5s;
+}
+
+.thumbnails:hover .thumbnail1 {
+    transform: scale(1.05);
+}
+
+.thumbnails:hover .thumbnail2 {
+    transition-delay: 0.05s;
+    transform: scale(1.06);
+}
+
+.thumbnails:hover .thumbnail3 {
+    transition-delay: 0.1s;
+    transform: scale(1.07);
+}
+
+.thumbnail-button-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.thumbnail-button-text {
+    font-size: 2rem;
+    text-align: center;
+    text-wrap: pretty;
+    margin-bottom: 5%;
+}
+
+.thumbnail-button {
+    width: 40%;
+    height: 8.5%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.thumbnail-button:hover {
+    background: #dcdcdc;
+}
+/* // Thubnail Section */
+
+/* Footer */
+.footer-copy {
+    color: #fff;
+}
+/* // Footer */
