@@ -19,7 +19,7 @@
 }
 
 .pro1 {
-    background: url(/assets/images/profiles/GeonBBang.png);
+    background: url(assets/images/profiles/GeonBBang.png);
 }
 
 .profile:hover {
@@ -304,20 +304,20 @@ a.about-contact-way:hover {
 
 .pro2 {
     background: #fff;
-    /* background: url(/assets/images/profiles/Nayen.png); */
+    /* background: url(assets/images/profiles/Nayen.png); */
 }
 
 .pro3 {
-    background: url(/assets/images/profiles/Gamgyul.png);
+    background: url(assets/images/profiles/Gamgyul.png);
 }
 
 .pro4 {
-    background: url(/assets/images/profiles/Ascreation.png);
+    background: url(assets/images/profiles/Ascreation.png);
 }
 
 .pro5 {
     background: #fff;
-    /* background: url(/assets/images/profiles/Teamplayworld.png); */
+    /* background: url(assets/images/profiles/Teamplayworld.png); */
 }
 /* // Team Section */
 
@@ -390,7 +390,7 @@ a.about-contact-way:hover {
     width: 85%;
     height: 65%;
     border-radius: 5px;
-    background: url('/assets/images/thumbnails/thumbnail1.png');
+    background: url('assets/images/thumbnails/thumbnail1.png');
     background-size: cover;
     transition: all 0.5s;
 }
@@ -402,7 +402,7 @@ a.about-contact-way:hover {
     width: 85%;
     height: 70%;
     border-radius: 5px;
-    background: url('/assets/images/thumbnails/thumbnail2.png');
+    background: url('assets/images/thumbnails/thumbnail2.png');
     background-size: cover;
     transition: all 0.5s;
 }
@@ -414,7 +414,7 @@ a.about-contact-way:hover {
     width: 80%;
     height: 70%;
     border-radius: 5px;
-    background: url('/assets/images/thumbnails/thumbnail3.png');
+    background: url('assets/images/thumbnails/thumbnail3.png');
     background-size: cover;
     transition: all 0.5s;
 }
